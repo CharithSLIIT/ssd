@@ -6,9 +6,10 @@ define('BASE_URL', 'http://localhost/ssd/');
 define('REDIRECT_URL', BASE_URL.'upload.php'); 
 
 // Include google client libraries 
-require_once 'google-api-php-client/autoload.php';  
-require_once 'google-api-php-client/Client.php'; 
-require_once 'google-api-php-client/Service/YouTube.php'; 
+// require_once 'vendor/Client.php'; 
+require_once 'vendor/autoload.php';  
+// require_once 'google-api-php-client/Client.php'; 
+// require_once 'vendor/Service/YouTube.php'; 
 
 if(!session_id()) session_start(); 
  
