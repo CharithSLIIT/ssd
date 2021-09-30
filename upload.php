@@ -16,6 +16,7 @@ require_once 'config.php';
             $fileType = $_FILES['drive-link']['type'];
             $fileName = str_shuffle('nirma').'-'.basename($_FILES['drive-link']['name']);
 
+            //target directory needed??
             $targetDir = "videos/"; 
             $targetFile = $targetDir . $fileName; 
 
